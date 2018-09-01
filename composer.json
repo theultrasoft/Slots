@@ -1,0 +1,21 @@
+{
+    "name": "theultrasoft/slots",
+    "description": "Slots is a sequence load balancer optimized by slots and max load. This class can be used to load balance proxies and achieve better anonymity.",
+    "type": "library",
+    "license": "GPL-3.0+",
+	"authors": [
+        {
+            "name": "THE ULTRASOFT",
+            "email": "contact@theultrasoft.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Slots\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
